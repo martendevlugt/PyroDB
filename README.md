@@ -3,7 +3,7 @@ This repository holds the code written as part of my thesis on the hazard profil
 For this project, a database to collect compounds names from pyrolysis products was designed, together with tools to match the compound names to the CAS register and PubChem database.
 Data from the CAS register and PubChem database was used to screen the compounds for possibly hazardous compounds using EPI suite.
 
-## [Dataset](dataset)
+## [Dataset](dataset.db)
 An empty "dataset.db" is included which includes the correct tables and collumns. In the thesis compound names originating from research papers containing py-GC/MS analytical data were used as a starting point.
 Chemical data was then retrieved using the "auto_identifier.py" and "identifier.py" scripts. Then the chemical data was used with the "epi_input.py" script to prepare for the usage of EPI suite to generate data for the screening level ecotoxicological assessment which was processed with the "epi_processor.py" script.
 
