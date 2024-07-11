@@ -18,7 +18,13 @@ The "cas_api.py" script has two functions:
   * Takes a search query (name, InChI key, etc.) and returns a list of results
 * details
   * Takes a CAS registration number (can be obtained from search) and returns information on the compound
+<details>
+<summary> Example output when using cas_api.py standalone </summary>
  
+![image](https://github.com/user-attachments/assets/3247e041-e105-4226-96cc-947bbd43926c)
+
+</details>
+  
 ### [compound_loader.py](scripts/compound_loader.py)
 Allows insertion of compound names and experiment ID's from a text file into the "dataset.db" database.
 Reason for this script is to convert a compound name list that was created in Excel quickly to the database via a .txt file. This was needed due to the first version being created in Excel.
