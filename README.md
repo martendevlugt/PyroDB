@@ -7,6 +7,8 @@ Data from the CAS register and PubChem database was used to screen the compounds
 An empty "dataset.db" is included which includes the correct tables and collumns. In the thesis compound names originating from research papers containing py-GC/MS analytical data were used as a starting point.
 Chemical data was then retrieved using the "auto_identifier.py" and "identifier.py" scripts. Then the chemical data was used with the "epi_input.py" script to prepare for the usage of EPI suite to generate data for the screening level ecotoxicological assessment which was processed with the "epi_processor.py" script.
 
+The database was created using [DB-browser for SQLite version 3.12.2](https://sqlitebrowser.org/dl/)
+
 ## Included scripts
 ### [cas_api.py](scripts/cas_api.py)
 Wrapper around the CAS register API, used in the compound identification script but can be ran as a standalone script to retrieve information on a single compound.
